@@ -75,7 +75,6 @@ function OptionRowPressable({
             report: {
                 reportID,
                 originalReportID: reportID,
-                isPinnedChat: optionItem.isPinned,
                 isUnreadChat: !!optionItem.isUnread,
             },
             reportAction: {
