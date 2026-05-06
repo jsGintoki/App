@@ -507,7 +507,6 @@ function PureReportActionItem({
                         reportID,
                         originalReportID,
                         isArchivedRoom,
-                        isChronos: isChronosReport,
                     },
                     reportAction: {
                         reportActionID: action.reportActionID,
@@ -533,7 +532,6 @@ function PureReportActionItem({
             shouldDisplayContextMenuValue,
             disabledActions,
             isArchivedRoom,
-            isChronosReport,
             handleShowContextMenu,
             isThreadReportParentAction,
         ],
@@ -1101,7 +1099,6 @@ function PureReportActionItem({
                                     isVisible={hovered && draftMessage === undefined && !hasErrors}
                                     isThreadReportParentAction={isThreadReportParentAction}
                                     draftMessage={draftMessage}
-                                    isChronosReport={isChronosReport}
                                     checkIfContextMenuActive={toggleContextMenuFromActiveReportAction}
                                     setIsEmojiPickerActive={setIsEmojiPickerActive}
                                 />
