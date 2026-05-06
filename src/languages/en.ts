@@ -2797,6 +2797,7 @@ const translations = {
         },
         error: {
             genericAdd: 'There was a problem adding this agent',
+            genericUpdate: 'There was a problem updating this agent',
         },
     },
     addAgentPage: {
