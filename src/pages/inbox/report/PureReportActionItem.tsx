@@ -502,7 +502,6 @@ function PureReportActionItem({
                     report: {
                         reportID,
                         originalReportID,
-                        isArchivedRoom,
                     },
                     reportAction: {
                         reportActionID: action.reportActionID,
@@ -527,7 +526,6 @@ function PureReportActionItem({
             originalReportID,
             shouldDisplayContextMenuValue,
             disabledActions,
-            isArchivedRoom,
             handleShowContextMenu,
             isThreadReportParentAction,
         ],
@@ -1089,7 +1087,6 @@ function PureReportActionItem({
                                     reportActionID={action.reportActionID}
                                     anchor={popoverAnchorRef}
                                     originalReportID={originalReportID}
-                                    isArchivedRoom={isArchivedRoom}
                                     displayAsGroup={displayAsGroup}
                                     disabledActions={disabledActions}
                                     isVisible={hovered && draftMessage === undefined && !hasErrors}
