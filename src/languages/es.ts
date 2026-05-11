@@ -57,6 +57,7 @@ const translations: TranslationDeepObject<typeof en> = {
         zoom: 'Zoom',
         password: 'Contraseña',
         magicCode: 'Código mágico',
+        magicCodeCaution: 'Este código caducará en 10 minutos. No lo compartas con nadie.',
         digits: 'dígitos',
         twoFactorCode: 'Autenticación de dos factores',
         workspaces: 'Espacios de trabajo',

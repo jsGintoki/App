@@ -6,6 +6,8 @@ import DotIndicatorMessage from '@components/DotIndicatorMessage';
 import FormAlertWithSubmitButton from '@components/FormAlertWithSubmitButton';
 import AppleSignIn from '@components/SignInButtons/AppleSignIn';
 import GoogleSignIn from '@components/SignInButtons/GoogleSignIn';
+import Icon from '@components/Icon';
+import * as Expensicons from '@components/Icon/Expensicons';
 import Text from '@components/Text';
 import TextInput from '@components/TextInput';
 import isTextInputFocused from '@components/TextInput/BaseTextInput/isTextInputFocused';

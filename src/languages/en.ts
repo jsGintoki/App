@@ -115,6 +115,7 @@ const translations = {
         zoom: 'Zoom',
         password: 'Password',
         magicCode: 'Magic code',
+        magicCodeCaution: 'This code will expire in 10 minutes. Do not share it with anyone.',
         digits: 'digits',
         twoFactorCode: 'Two-factor code',
         workspaces: 'Workspaces',
